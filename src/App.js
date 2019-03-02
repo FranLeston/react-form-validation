@@ -19,7 +19,7 @@ class App extends Component {
         <NavBar/>
 
         <section className="section">
-          <div className="container">
+          <div className="container is fluid">
             <div className="columns">
               <div className="column">
                 <Form onSubmit={this.addEmail} addEmail={this.addEmail}/>
